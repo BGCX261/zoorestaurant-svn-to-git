@@ -1,0 +1,272 @@
+.dialog_frame {
+		width: 100%;
+		height: 100%;
+}
+//---
+
+#bd {
+	padding-top: 0;
+	margin-top: 0;
+	border-top: 0;	
+}
+/*#menu_container {
+	float: left;
+	margin-top: 0px; */
+	/*width: 20%;*/
+/*	background-color: #D6E9F8; */
+	
+}
+
+/*#menu_container p {
+	margin-top: 0;
+	margin-bottom: 0;
+}*/
+
+/*#menu_title {
+	width: 178px;
+}*/
+
+.frame_title {
+	height: 25px;
+	border: 1px solid black;
+	border-bottom: 0px;
+	
+}
+
+.frame_title p {
+	font-weigth: bold;
+	margin-left: 20px;
+	padding-top: 5px;
+}
+
+#container-main {
+	margin-left: 0;
+	float: left;
+	width: 100%;
+	height: 420px;
+}
+
+/*#menu {
+	padding: 10px;
+	height: 400px;
+}*/
+
+/*#menu_cell {
+	width: 198px;
+}*/
+
+ /*#menu_margin {
+ 	height: 35px;
+ 	background-color: #67A7E3;
+ 	margin-top: 0;
+ }*/
+
+#main_container {
+	width: 1024px;
+}
+
+ #layout_table {
+ 	width: 100%;
+ 	height: 100%;
+ }
+ 
+ #main_container {
+	border-left: 1px solid rgb(180, 180, 180);
+ 	border-right: 1px solid rgb(180, 180, 180);
+}
+ 
+ /*------------------------------------------------*/
+ 
+ 		   #list {
+		   	float: left; 
+		   	width: 1024px;
+		   	
+		   	padding: 10px;
+		   }
+		   #list table { 
+		   	width: 800px;
+		   }
+
+		   #search_container {
+		   	float: left;
+		   	/*border: 1px solid black;*/
+		   	padding: 10px;
+		   	margin-left: 10px;
+		   	width: 100px;
+		   }
+		   
+		   #search_container p {
+				margin-top: 0;
+		   		margin-bottom: 0;
+			}
+		   
+		   #search_form {
+		     padding: 10px;
+		     height: 100px;
+		     border: 1px solid black;
+		    }
+		   
+		   #the_table {
+		   	height: 300px;
+		   }
+		   
+		   #the_table p {
+				margin: 0;
+           }
+
+
+		   #toolbar {
+		   	height: 35px;
+		   	background-color: #67A7E3;
+           	width: 1024px;
+		   }
+
+		   #inner_toolbar {
+		   	height: 35px;
+  			background-color: #F0F0F0;
+		   }
+		   
+
+			.toolbar_button_container {
+		    	padding-top: 5px;
+		    	padding-left: 5px;
+		    	float: left;
+
+		   }
+
+		   .toolbar_button_container a, button {
+		    	font-weight: bold;
+		   }		   
+
+			.item_action {
+				float: right;
+				margin-left: 1em;
+			}
+			
+			#notice_message {
+				background-color: yellow;
+				font-weight: bold;
+				padding-left: 1em;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+				border: 0.5px solid black;
+			}
+			
+			#notice_message p {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			#error_message {
+				background-color: #FF3333;
+				font-weight: bold;
+				padding-left: 1em;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+				border: 0.5px solid black;
+			}
+
+			#error_message p {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			.form_field {
+				padding: 0.5em;
+				border-bottom: 1px solid #DDDDDD
+			}
+			
+			.form_field_label {
+				width: 8em;
+				float: left;
+				height: 100%;
+			}
+			
+			.form_field_entry {
+				width: 100%;
+				clear: both;
+				overflow: hidden;
+			}
+			
+			.show_item_field_label {
+				width: 8em;
+				float: left;
+			}
+			
+			.show_item p {
+				margin-top: 0;
+				margin-bottom: 0;	
+			}
+			
+			.show_item_field_entry {
+				width: 100%;
+				clear: both;
+				padding: 0.5em;
+				border-bottom: 1px solid #DDDDDD;
+				overflow: hidden;
+			}
+			
+			.show_item_body {
+				overflow: hidden;
+				width: 1024px;
+			}
+			.show_item_field_value {
+				overflow: hidden;
+			}
+			
+
+			.form_field_errors {
+				clear: both;
+				padding: 0;
+			}
+
+			.form_field_errors ul{
+				background-color: #FF3333;
+				border: medium none;
+				color: #DD3333;
+				margin: 0 0 7px;
+				
+			}
+			
+			.form_field_errors li {
+				background: transparent url(../images/error.png) no-repeat scroll 4px 4px;
+				color: #FFFFFF;
+				list-style-image: none;
+				list-style-position: outside;
+				list-style-type: none;
+				padding: 4px 4px 4px 25px;
+				margin: 0;
+			}		
+			
+			.form_global_errors {
+				clear: both;
+				padding: 0;
+			}
+
+			.form_global_errors ul{
+				background-color: #FF3333;
+				border: medium none;
+				color: #DD3333;
+				margin: 0 0 7px;
+				
+			}
+			
+			.form_global_errors li {
+				background: transparent url(../images/error.png) no-repeat scroll 4px 4px;
+				color: #FFFFFF;
+				list-style-image: none;
+				list-style-position: outside;
+				list-style-type: none;
+				padding: 4px 4px 4px 25px;
+				margin: 0;
+			}
+			
+			#dialog_frame {
+				width: 100%;
+				height: 100%;
+			}		
+			
+			
+			#component_main {
+				width: 100%;
+			} 	

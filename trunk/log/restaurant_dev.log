@@ -1,0 +1,612 @@
+oct 20 18:17:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 20 18:17:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 20 18:17:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 20 18:17:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+oct 20 18:17:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 20 18:17:19 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 20 18:17:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 20 18:17:19 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+oct 20 18:17:19 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+oct 20 18:17:19 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+oct 20 18:17:19 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+oct 20 18:17:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 20 18:17:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 20 18:17:19 symfony [info] {sfWebDebugLogger} Configuration 84.41 ms (9)
+oct 20 18:17:19 symfony [info] {sfWebDebugLogger} Action "default/index" 0.11 ms (1)
+oct 20 18:17:19 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 12.26 ms (1)
+oct 20 18:17:19 symfony [info] {sfWebResponse} Send content (26785 o)
+oct 20 18:34:12 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 20 18:34:12 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 20 18:34:12 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 20 18:34:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 20 18:34:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 20 18:34:12 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 20 18:34:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 20 18:34:12 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 20 18:34:12 symfony [info] {administracion_mesasActions} Forward to action "default/module"
+oct 20 18:34:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 20 18:34:12 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 20 18:34:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 20 18:34:12 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+oct 20 18:34:12 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+oct 20 18:34:12 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+oct 20 18:34:12 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+oct 20 18:34:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 20 18:34:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 20 18:34:12 symfony [info] {sfWebDebugLogger} Configuration 70.94 ms (12)
+oct 20 18:34:12 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 23.78 ms (1)
+oct 20 18:34:12 symfony [info] {sfWebDebugLogger} Action "default/module" 0.11 ms (1)
+oct 20 18:34:12 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 10.02 ms (1)
+oct 20 18:34:12 symfony [info] {sfWebResponse} Send content (29023 o)
+oct 20 18:36:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 20 18:36:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 20 18:36:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 20 18:36:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 20 18:36:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 20 18:36:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 20 18:36:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 20 18:36:53 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 20 18:36:53 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 20 18:36:53 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 20 18:36:53 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 20 18:36:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 20 18:36:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 20 18:36:53 symfony [info] {sfWebDebugLogger} Configuration 11.41 ms (10)
+oct 20 18:36:53 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.11 ms (1)
+oct 20 18:36:53 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 20.33 ms (1)
+oct 20 18:36:53 symfony [info] {sfWebResponse} Send content (25437 o)
+oct 20 18:40:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 20 18:40:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 20 18:40:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 20 18:40:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 20 18:40:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 20 18:40:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 20 18:40:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 20 18:40:02 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 20 18:40:02 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 20 18:40:02 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 20 18:40:02 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 20 18:40:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 20 18:40:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 20 18:40:02 symfony [info] {sfWebDebugLogger} Configuration 1.25 ms (9)
+oct 20 18:40:02 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.11 ms (1)
+oct 20 18:40:02 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 7.48 ms (1)
+oct 20 18:40:02 symfony [info] {sfWebResponse} Send content (25439 o)
+oct 20 18:40:31 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 20 18:40:31 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 20 18:40:31 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 20 18:40:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 20 18:40:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 20 18:40:31 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 20 18:40:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 20 18:40:31 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 20 18:40:31 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 20 18:40:31 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 20 18:40:31 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 20 18:40:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 20 18:40:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 20 18:40:31 symfony [info] {sfWebDebugLogger} Configuration 1.22 ms (9)
+oct 20 18:40:31 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.12 ms (1)
+oct 20 18:40:31 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 8.20 ms (1)
+oct 20 18:40:31 symfony [info] {sfWebResponse} Send content (25444 o)
+oct 20 18:43:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 20 18:43:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 20 18:43:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 20 18:43:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 20 18:43:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 20 18:43:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 20 18:43:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 20 18:43:06 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 20 18:43:06 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 20 18:43:06 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 20 18:43:06 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 20 18:43:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 20 18:43:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 20 18:43:06 symfony [info] {sfWebDebugLogger} Configuration 1.25 ms (9)
+oct 20 18:43:06 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.11 ms (1)
+oct 20 18:43:06 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 8.05 ms (1)
+oct 20 18:43:06 symfony [info] {sfWebResponse} Send content (27042 o)
+oct 21 17:51:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 17:51:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 17:51:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 17:51:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 17:51:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 17:51:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 17:51:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 17:51:22 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 17:51:22 symfony [info] {sfDoctrineLogger} executeQuery : SELECT r.id AS r__id, r.nombre AS r__nombre FROM restaurant r WHERE r.id = 1
+oct 21 17:51:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 17:51:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 17:51:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 17:51:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 17:51:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 17:51:40 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 17:51:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 17:51:40 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 17:51:40 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 17:51:40 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 17:51:40 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 17:51:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 17:51:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 17:51:40 symfony [info] {sfWebDebugLogger} Configuration 11.88 ms (10)
+oct 21 17:51:40 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 17:51:40 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 76.20 ms (1)
+oct 21 17:51:40 symfony [info] {sfWebResponse} Send content (32306 o)
+oct 21 17:55:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 17:55:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 17:55:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 17:55:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 17:55:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 17:55:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 17:55:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 17:55:36 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 17:55:36 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 17:55:36 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 17:55:36 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 17:55:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 17:55:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 17:55:36 symfony [info] {sfWebDebugLogger} Configuration 1.21 ms (9)
+oct 21 17:55:36 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 17:55:36 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 30.92 ms (1)
+oct 21 17:55:36 symfony [info] {sfWebResponse} Send content (31685 o)
+oct 21 18:15:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 18:15:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 18:15:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 18:15:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 18:15:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 18:15:55 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 18:15:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 18:15:55 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 18:15:55 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 18:15:55 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:15:55 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:15:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 18:15:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 18:15:55 symfony [info] {sfWebDebugLogger} Configuration 1.27 ms (9)
+oct 21 18:15:55 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.16 ms (1)
+oct 21 18:15:55 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 61.54 ms (1)
+oct 21 18:15:55 symfony [info] {sfWebResponse} Send content (31685 o)
+oct 21 18:16:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 18:16:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 18:16:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 18:16:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 18:16:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 18:16:10 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 18:16:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 18:16:10 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 18:16:10 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 18:16:10 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:16:10 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:16:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 18:16:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 18:16:10 symfony [info] {sfWebDebugLogger} Configuration 129.14 ms (9)
+oct 21 18:16:10 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 18:16:10 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 15.49 ms (1)
+oct 21 18:16:10 symfony [info] {sfWebResponse} Send content (31687 o)
+oct 21 18:16:29 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 18:16:29 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 18:16:29 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 18:16:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 18:16:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 18:16:29 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 18:16:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 18:16:29 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 18:16:29 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 18:16:29 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:16:29 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:16:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 18:16:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 18:16:29 symfony [info] {sfWebDebugLogger} Configuration 1.26 ms (9)
+oct 21 18:16:29 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 18:16:29 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 15.58 ms (1)
+oct 21 18:16:29 symfony [info] {sfWebResponse} Send content (32583 o)
+oct 21 18:17:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 18:17:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 18:17:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 18:17:41 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 18:17:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 18:17:41 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 18:17:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 18:17:41 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 18:17:41 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 18:17:41 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:17:41 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:17:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 18:17:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 18:17:41 symfony [info] {sfWebDebugLogger} Configuration 2.69 ms (9)
+oct 21 18:17:41 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 18:17:41 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 18.44 ms (1)
+oct 21 18:17:41 symfony [info] {sfWebResponse} Send content (32591 o)
+oct 21 18:29:30 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 18:29:30 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 18:29:30 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 18:29:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 18:29:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 18:29:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 18:29:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 18:29:30 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 18:29:30 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 18:29:30 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:29:30 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:29:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 18:29:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 18:29:30 symfony [info] {sfWebDebugLogger} Configuration 1.25 ms (9)
+oct 21 18:29:30 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 18:29:30 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 15.43 ms (1)
+oct 21 18:29:30 symfony [info] {sfWebResponse} Send content (32881 o)
+oct 21 18:29:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 18:29:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 18:29:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 18:29:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 18:29:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 18:29:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 18:29:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 18:29:53 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 18:29:53 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 18:29:53 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:29:53 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:29:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 18:29:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 18:29:53 symfony [info] {sfWebDebugLogger} Configuration 1.79 ms (9)
+oct 21 18:29:53 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 18:29:53 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 13.28 ms (1)
+oct 21 18:29:53 symfony [info] {sfWebResponse} Send content (32881 o)
+oct 21 18:34:00 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 18:34:00 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 18:34:00 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 18:34:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 18:34:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 18:34:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 18:34:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 18:34:00 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 18:34:00 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 18:34:01 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:34:01 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:34:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 18:34:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 18:34:01 symfony [info] {sfWebDebugLogger} Configuration 1.41 ms (9)
+oct 21 18:34:01 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 18:34:01 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 17.49 ms (1)
+oct 21 18:34:01 symfony [info] {sfWebResponse} Send content (32884 o)
+Oct 21 18:37:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 21 18:37:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 21 18:37:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 21 18:37:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+Oct 21 18:37:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 21 18:37:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 21 18:37:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 21 18:37:02 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+Oct 21 18:37:02 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+Oct 21 18:37:02 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+Oct 21 18:37:02 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+Oct 21 18:37:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 21 18:37:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 21 18:37:02 symfony [info] {sfWebDebugLogger} Configuration 1.36 ms (9)
+Oct 21 18:37:02 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+Oct 21 18:37:02 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 26.04 ms (1)
+Oct 21 18:37:02 symfony [info] {sfWebResponse} Send content (32893 o)
+oct 21 18:39:37 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 18:39:37 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 18:39:37 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 18:39:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 18:39:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 18:39:38 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 18:39:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 18:39:38 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 18:39:38 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 18:39:38 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:39:38 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:39:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 18:39:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 18:39:38 symfony [info] {sfWebDebugLogger} Configuration 5.62 ms (9)
+oct 21 18:39:38 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 18:39:38 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 21.20 ms (1)
+oct 21 18:39:38 symfony [info] {sfWebResponse} Send content (32993 o)
+oct 21 18:44:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 18:44:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 18:44:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 18:44:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 18:44:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 18:44:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 18:44:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 18:44:28 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 18:44:28 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 18:44:28 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:44:28 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:44:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 18:44:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 18:44:28 symfony [info] {sfWebDebugLogger} Configuration 4.25 ms (9)
+oct 21 18:44:28 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 18:44:28 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 17.26 ms (1)
+oct 21 18:44:28 symfony [info] {sfWebResponse} Send content (33237 o)
+oct 21 18:45:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 21 18:45:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 21 18:45:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 21 18:45:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 21 18:45:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 21 18:45:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 21 18:45:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 21 18:45:25 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 21 18:45:25 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 21 18:45:25 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:45:25 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 21 18:45:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 21 18:45:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 21 18:45:25 symfony [info] {sfWebDebugLogger} Configuration 1.33 ms (9)
+oct 21 18:45:25 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.13 ms (1)
+oct 21 18:45:25 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 16.77 ms (1)
+oct 21 18:45:25 symfony [info] {sfWebResponse} Send content (33238 o)
+oct 25 23:31:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 25 23:31:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 25 23:31:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 25 23:31:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 25 23:31:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 25 23:31:19 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 25 23:31:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 25 23:31:19 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 25 23:31:19 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 25 23:31:19 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 25 23:31:19 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 25 23:31:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 25 23:31:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 25 23:31:19 symfony [info] {sfWebDebugLogger} Configuration 815.16 ms (10)
+oct 25 23:31:19 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.20 ms (1)
+oct 25 23:31:19 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 97.60 ms (1)
+oct 25 23:31:19 symfony [info] {sfWebResponse} Send content (33071 o)
+oct 25 23:31:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 25 23:31:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 25 23:31:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 25 23:31:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 25 23:31:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 25 23:31:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 25 23:31:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 25 23:31:21 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 25 23:31:21 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 25 23:31:21 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 25 23:31:21 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 25 23:31:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 25 23:31:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 25 23:31:21 symfony [info] {sfWebDebugLogger} Configuration 28.70 ms (10)
+oct 25 23:31:21 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.17 ms (1)
+oct 25 23:31:21 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 45.88 ms (1)
+oct 25 23:31:21 symfony [info] {sfWebResponse} Send content (33015 o)
+oct 25 23:31:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 25 23:31:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 25 23:31:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 25 23:31:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /administracion_mesas/new with parameters array (  'module' => 'administracion_mesas',  'action' => 'new',)
+oct 25 23:31:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 25 23:31:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 25 23:31:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 25 23:31:39 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeNew()"
+oct 25 23:31:39 symfony [info] {sfDoctrineLogger} executeQuery : SELECT r.id AS r__id, r.nombre AS r__nombre FROM restaurant r WHERE r.id = 1
+oct 25 23:31:39 symfony [info] {sfDoctrineLogger} executeQuery : SELECT e.id AS e__id, e.codigo AS e__codigo, e.nombre AS e__nombre, e.id_restaurant AS e__id_restaurant FROM estado_mesa e WHERE e.id_restaurant IN (?) - (1 )
+oct 25 23:31:39 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/newSuccess.php"
+oct 25 23:31:39 symfony [info] {sfPartialView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/_form.php"
+oct 25 23:31:39 symfony [info] {sfPartialView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/_formToolbar.php"
+oct 25 23:31:39 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 25 23:31:39 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 25 23:31:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 25 23:31:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 25 23:31:39 symfony [info] {sfWebDebugLogger} Configuration 16.30 ms (10)
+oct 25 23:31:39 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/new" 155.63 ms (1)
+oct 25 23:31:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+oct 25 23:31:39 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/new" 91.95 ms (1)
+oct 25 23:31:39 symfony [info] {sfWebDebugLogger} Partial "administracion_mesas/_form" 40.75 ms (1)
+oct 25 23:31:39 symfony [info] {sfWebDebugLogger} Partial "administracion_mesas/_formToolbar" 4.50 ms (1)
+oct 25 23:31:39 symfony [info] {sfWebResponse} Send content (33631 o)
+oct 25 23:32:35 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 25 23:32:35 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 25 23:32:35 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 25 23:32:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /administracion_mesas/create with parameters array (  'module' => 'administracion_mesas',  'action' => 'create',)
+oct 25 23:32:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 25 23:32:35 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 25 23:32:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 25 23:32:35 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeCreate()"
+oct 25 23:32:35 symfony [info] {sfDoctrineLogger} executeQuery : SELECT r.id AS r__id, r.nombre AS r__nombre FROM restaurant r WHERE r.id = 1
+oct 25 23:32:35 symfony [info] {sfDoctrineLogger} executeQuery : SELECT e.id AS e__id, e.codigo AS e__codigo, e.nombre AS e__nombre, e.id_restaurant AS e__id_restaurant FROM estado_mesa e WHERE e.id_restaurant IN (?) - (1 )
+oct 25 23:32:35 symfony [info] {sfDoctrineLogger} executeQuery : SELECT m.id AS m__id, m.numero AS m__numero, m.id_estado AS m__id_estado, m.id_mozo AS m__id_mozo, m.id_pedido AS m__id_pedido, m.fecha_abierta AS m__fecha_abierta, m.fecha_cerrada AS m__fecha_cerrada, m.id_restaurant AS m__id_restaurant FROM mesa m WHERE m.id_restaurant IN (?) - (1 )
+oct 25 23:32:36 symfony [info] {sfDoctrineLogger} executeQuery : INSERT INTO mesa (id_estado, id_restaurant, numero) VALUES (?, ?, ?) - (2, 1, 1 )
+oct 25 23:32:36 symfony [info] {sfFrontWebController} Redirect to "http://localhost:8081/restaurant_dev.php/administracion_mesas/show/id/1"
+oct 25 23:32:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+oct 25 23:32:36 symfony [info] {sfWebResponse} Send header "Location: http://localhost:8081/restaurant_dev.php/administracion_mesas/show/id/1"
+oct 25 23:32:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 25 23:32:36 symfony [info] {sfWebDebugLogger} Configuration 1.43 ms (8)
+oct 25 23:32:36 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/create" 277.93 ms (1)
+oct 25 23:32:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.06 ms (7)
+oct 25 23:32:36 symfony [info] {sfWebResponse} Send content (142 o)
+oct 25 23:32:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 25 23:32:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 25 23:32:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 25 23:32:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /administracion_mesas/show/id/1 with parameters array (  'id' => '1',  'module' => 'administracion_mesas',  'action' => 'show',)
+oct 25 23:32:36 symfony [info] {myUser} Flag old flash messages ("message", "message_detail")
+oct 25 23:32:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 25 23:32:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 25 23:32:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 25 23:32:36 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeShow()"
+oct 25 23:32:36 symfony [info] {sfDoctrineLogger} executeQuery : SELECT r.id AS r__id, r.nombre AS r__nombre FROM restaurant r WHERE r.id = 1
+oct 25 23:32:36 symfony [info] {sfDoctrineLogger} executeQuery : SELECT m.id AS m__id, m.numero AS m__numero, m.id_estado AS m__id_estado, m.id_mozo AS m__id_mozo, m.id_pedido AS m__id_pedido, m.fecha_abierta AS m__fecha_abierta, m.fecha_cerrada AS m__fecha_cerrada, m.id_restaurant AS m__id_restaurant FROM mesa m WHERE m.id_restaurant IN (?) - (1 )
+oct 25 23:32:36 symfony [info] {administracion_mesasActions} Change template to "CURRENT/show"
+oct 25 23:32:36 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/showSuccess.php"
+oct 25 23:32:36 symfony [info] {sfPartialView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/_showToolbar.php"
+oct 25 23:32:36 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 25 23:32:36 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 25 23:32:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 25 23:32:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 25 23:32:36 symfony [info] {sfWebDebugLogger} Configuration 14.96 ms (10)
+oct 25 23:32:36 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/show" 54.02 ms (1)
+oct 25 23:32:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+oct 25 23:32:36 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/show" 41.60 ms (1)
+oct 25 23:32:36 symfony [info] {sfWebDebugLogger} Partial "administracion_mesas/_showToolbar" 6.58 ms (1)
+oct 25 23:32:36 symfony [info] {sfWebResponse} Send content (35686 o)
+oct 25 23:32:36 symfony [info] {myUser} Remove old flash messages ("message", "message_detail")
+oct 26 01:49:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 26 01:49:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 26 01:49:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 26 01:49:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /administracion_mesas/asyncAbrirMesa with parameters array (  'module' => 'administracion_mesas',  'action' => 'asyncAbrirMesa',)
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 26 01:52:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 26 01:52:10 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 26 01:52:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 26 01:52:10 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 26 01:52:10 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 26 01:52:10 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 26 01:52:10 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:52:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 26 01:52:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 26 01:52:10 symfony [info] {sfWebDebugLogger} Configuration 122.99 ms (9)
+oct 26 01:52:10 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.17 ms (1)
+oct 26 01:52:10 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 42.70 ms (1)
+oct 26 01:52:10 symfony [info] {sfWebResponse} Send content (33211 o)
+oct 26 01:52:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 26 01:52:10 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 26 01:52:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 26 01:52:10 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 26 01:52:10 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 26 01:52:10 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:52:10 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:52:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 26 01:52:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 26 01:52:10 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (9)
+oct 26 01:52:10 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.17 ms (1)
+oct 26 01:52:10 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 39.82 ms (1)
+oct 26 01:52:10 symfony [info] {sfWebResponse} Send content (33208 o)
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 26 01:52:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 26 01:52:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 26 01:52:10 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 26 01:52:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 26 01:52:10 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 26 01:52:10 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 26 01:52:10 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:52:10 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:52:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 26 01:52:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 26 01:52:10 symfony [info] {sfWebDebugLogger} Configuration 1.62 ms (9)
+oct 26 01:52:10 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.17 ms (1)
+oct 26 01:52:10 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 16.05 ms (1)
+oct 26 01:52:10 symfony [info] {sfWebResponse} Send content (33208 o)
+oct 26 01:52:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 26 01:52:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 26 01:52:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 26 01:52:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /administracion_mesas/show with parameters array (  'module' => 'administracion_mesas',  'action' => 'show',)
+oct 26 01:52:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 26 01:52:19 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 26 01:52:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 26 01:52:19 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeShow()"
+oct 26 01:52:19 symfony [info] {sfDoctrineLogger} executeQuery : SELECT r.id AS r__id, r.nombre AS r__nombre FROM restaurant r WHERE r.id = 1
+oct 26 01:52:20 symfony [info] {sfDoctrineLogger} executeQuery : SELECT m.id AS m__id, m.numero AS m__numero, m.id_estado AS m__id_estado, m.id_mozo AS m__id_mozo, m.id_pedido AS m__id_pedido, m.fecha_abierta AS m__fecha_abierta, m.fecha_cerrada AS m__fecha_cerrada, m.id_restaurant AS m__id_restaurant FROM mesa m WHERE m.id_restaurant IN (?) - (1 )
+oct 26 01:52:20 symfony [info] {administracion_mesasActions} Change template to "CURRENT/show"
+oct 26 01:52:20 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/showSuccess.php"
+oct 26 01:52:20 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:52:20 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:52:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 26 01:52:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 26 01:52:20 symfony [info] {sfWebDebugLogger} Configuration 1.67 ms (9)
+oct 26 01:52:20 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/show" 57.36 ms (1)
+oct 26 01:52:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+oct 26 01:52:20 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/show" 22.39 ms (1)
+oct 26 01:52:20 symfony [info] {sfWebResponse} Send content (34945 o)
+oct 26 01:52:47 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 26 01:52:47 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 26 01:52:47 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 26 01:52:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 26 01:52:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 26 01:52:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 26 01:52:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 26 01:52:47 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 26 01:52:47 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 26 01:52:47 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:52:47 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:52:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 26 01:52:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 26 01:52:47 symfony [info] {sfWebDebugLogger} Configuration 1.69 ms (9)
+oct 26 01:52:47 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.16 ms (1)
+oct 26 01:52:47 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 21.44 ms (1)
+oct 26 01:52:47 symfony [info] {sfWebResponse} Send content (33153 o)
+oct 26 01:54:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 26 01:54:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 26 01:54:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 26 01:54:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /administracion_mesas/show with parameters array (  'module' => 'administracion_mesas',  'action' => 'show',)
+oct 26 01:54:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 26 01:54:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 26 01:54:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 26 01:54:25 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeShow()"
+oct 26 01:54:25 symfony [info] {sfDoctrineLogger} executeQuery : SELECT r.id AS r__id, r.nombre AS r__nombre FROM restaurant r WHERE r.id = 1
+oct 26 01:54:25 symfony [info] {sfDoctrineLogger} executeQuery : SELECT m.id AS m__id, m.numero AS m__numero, m.id_estado AS m__id_estado, m.id_mozo AS m__id_mozo, m.id_pedido AS m__id_pedido, m.fecha_abierta AS m__fecha_abierta, m.fecha_cerrada AS m__fecha_cerrada, m.id_restaurant AS m__id_restaurant FROM mesa m WHERE m.id_restaurant IN (?) - (1 )
+oct 26 01:54:25 symfony [info] {administracion_mesasActions} Change template to "CURRENT/show"
+oct 26 01:54:25 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/showSuccess.php"
+oct 26 01:54:25 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:54:25 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:54:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 26 01:54:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 26 01:54:25 symfony [info] {sfWebDebugLogger} Configuration 1.98 ms (9)
+oct 26 01:54:25 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/show" 57.52 ms (1)
+oct 26 01:54:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+oct 26 01:54:25 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/show" 22.81 ms (1)
+oct 26 01:54:25 symfony [info] {sfWebResponse} Send content (34953 o)
+oct 26 01:55:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 26 01:55:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 26 01:55:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 26 01:55:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 26 01:55:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 26 01:55:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 26 01:55:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 26 01:55:04 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 26 01:55:04 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 26 01:55:04 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:55:04 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 26 01:55:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 26 01:55:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 26 01:55:04 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (9)
+oct 26 01:55:04 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.17 ms (1)
+oct 26 01:55:04 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 18.26 ms (1)
+oct 26 01:55:04 symfony [info] {sfWebResponse} Send content (33153 o)
+oct 30 04:12:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 30 04:12:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 30 04:12:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 30 04:12:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /administracion_mesas with parameters array (  'module' => 'administracion_mesas',  'action' => 'index',)
+oct 30 04:12:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 30 04:12:48 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 30 04:12:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 30 04:12:48 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeIndex()"
+oct 30 04:12:48 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/indexSuccess.php"
+oct 30 04:12:49 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 30 04:12:49 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 30 04:12:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 30 04:12:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 30 04:12:49 symfony [info] {sfWebDebugLogger} Configuration 438.71 ms (10)
+oct 30 04:12:49 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/index" 0.16 ms (1)
+oct 30 04:12:49 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/index" 81.89 ms (1)
+oct 30 04:12:49 symfony [info] {sfWebResponse} Send content (33096 o)
+oct 30 04:13:05 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+oct 30 04:13:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+oct 30 04:13:05 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+oct 30 04:13:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /administracion_mesas/show with parameters array (  'module' => 'administracion_mesas',  'action' => 'show',)
+oct 30 04:13:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 30 04:13:05 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 30 04:13:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 30 04:13:05 symfony [info] {administracion_mesasActions} Call "administracion_mesasActions->executeShow()"
+oct 30 04:13:05 symfony [info] {sfDoctrineLogger} executeQuery : SELECT r.id AS r__id, r.nombre AS r__nombre FROM restaurant r WHERE r.id = 1
+oct 30 04:13:05 symfony [info] {sfDoctrineLogger} executeQuery : SELECT m.id AS m__id, m.numero AS m__numero, m.id_estado AS m__id_estado, m.id_mozo AS m__id_mozo, m.id_pedido AS m__id_pedido, m.fecha_abierta AS m__fecha_abierta, m.fecha_cerrada AS m__fecha_cerrada, m.id_restaurant AS m__id_restaurant FROM mesa m WHERE m.id_restaurant IN (?) - (1 )
+oct 30 04:13:05 symfony [info] {administracion_mesasActions} Change template to "CURRENT/show"
+oct 30 04:13:05 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/modules/administracion_mesas/templates/showSuccess.php"
+oct 30 04:13:05 symfony [info] {sfDoctrineLogger} executeQuery : SELECT e.id AS e__id, e.codigo AS e__codigo, e.nombre AS e__nombre, e.id_restaurant AS e__id_restaurant FROM estado_mesa e WHERE e.id = ? - (1 )
+oct 30 04:13:05 symfony [info] {sfDoctrineLogger} executeQuery : SELECT m.id AS m__id, m.nombre AS m__nombre, m.apellido AS m__apellido, m.id_restaurant AS m__id_restaurant FROM mozo m WHERE m.id = ? - (2 )
+oct 30 04:13:05 symfony [info] {sfPHPView} Decorate content with "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 30 04:13:05 symfony [info] {sfPHPView} Render "/home/lucho/desarrollo/rest/apps/restaurant/templates/layout.php"
+oct 30 04:13:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 30 04:13:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 30 04:13:05 symfony [info] {sfWebDebugLogger} Configuration 1.72 ms (9)
+oct 30 04:13:05 symfony [info] {sfWebDebugLogger} Action "administracion_mesas/show" 59.26 ms (1)
+oct 30 04:13:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (7)
+oct 30 04:13:05 symfony [info] {sfWebDebugLogger} View "Success" for "administracion_mesas/show" 69.99 ms (1)
+oct 30 04:13:05 symfony [info] {sfWebResponse} Send content (38241 o)

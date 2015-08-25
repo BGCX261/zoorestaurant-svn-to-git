@@ -1,0 +1,207 @@
+options:
+  collate: utf8_unicode_ci
+  charset: utf8
+  type: InnoDB
+
+Mesa:
+  columns:
+    numero: { type: integer}
+    id_estado: {type: integer} 
+    id_mozo: {type: integer}
+    id_pedido: { type: integer}
+    fecha_abierta: { type: timestamp }
+    fecha_cerrada: { type: timestamp }
+    id_restaurant: { type: integer, notnull: true }
+  relations:
+    Estado:
+      class: EstadoMesa
+      local: id_estado
+      foreign: id
+    Mozo:
+      class: Mozo
+      local: id_mozo
+      foreign: id
+    Pedido:
+      class: Pedido
+      local: id_pedido
+      foreign: id
+      
+EstadoMesa:
+  columns:
+    codigo: { type: string(30), notnull: true }
+    nombre: { type: string, length: 100, notnull: true }
+    id_restaurant: { type: integer, notnull: true }
+
+Mozo:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    apellido: { type: string(255), notnull: true }
+    id_restaurant: { type: integer, notnull: true }
+    
+Factura:
+  columns:
+    numero: { type: string(255), notnull: true }
+    propina: { type: float }
+    fecha: { type: timestamp }
+    id_mesa: { type: integer, notnull: true }
+    id_caja: { type: integer, notnull: true }
+    total: { type: float }
+  relations:
+    Mesa:
+      class: Mesa
+      local: id_mesa
+      foreign: id
+      
+Pedido:
+  columns:
+    numero: { type: integer}
+    fecha: { type: timestamp }
+    id_estado: {type: integer}
+    id_restaurant: { type: integer, notnull: true }
+  relations:
+    Detalle:
+      type: many
+      class: Detalle
+      local: id
+      foreign: id_pedido
+    Estado:
+      class: EstadoPedido
+      local: id_estado
+      foreign: id
+
+EstadoPedido:
+  columns:
+    codigo: { type: string(30), notnull: true }
+    nombre: { type: string, length: 100, notnull: true }
+    id_restaurant: { type: integer, notnull: true }
+      
+Producto:
+  columns:
+    codigo: { type: string(30), notnull: true }
+    nombre: { type: string(255), notnull: true }
+    descripcion: { type: string(255) }
+    precio: { type: float, notnull: true}
+    id_restaurant: { type: integer, notnull: true }
+
+Detalle:
+  columns:
+    id_producto: {type: integer }
+    cantidad: {type: integer, default: 1}
+    id_pedido: {type: integer }
+  relations:
+    Producto:
+      class: Producto
+      local: id_producto
+      foreign: id
+
+Entrada:
+  inheritance:
+    extends: Producto
+    type: column_aggregation
+    keyField: type
+    keyValue: ENT
+
+PlatoPrincipal:
+  inheritance:
+    extends: Producto
+    type: column_aggregation
+    keyField: type
+    keyValue: PPAL
+
+ParrillaLibre:
+  inheritance:
+    extends: Producto
+    type: column_aggregation
+    keyField: type
+    keyValue: PLIB
+
+Bebida:
+  inheritance:
+    extends: Producto
+    type: column_aggregation
+    keyField: type
+    keyValue: BEB
+  columns:
+    capacidad: { type: string(10) }
+
+Ensalada:
+  inheritance:
+    extends: Producto
+    type: column_aggregation
+    keyField: type
+    keyValue: ENS
+
+Postre:
+  inheritance:
+    extends: Producto
+    type: column_aggregation
+    keyField: type
+    keyValue: POS
+
+Stock:
+  columns:
+    codigo: { type: string(30), notnull: true }
+    cantidad: {type: integer }
+
+Caja:
+  columns:
+    id_factura: {type: integer }
+    fecha_abierta: { type: timestamp }
+    fecha_cerrada: { type: timestamp }
+    id_estado: {type: integer}
+  relations:
+    Facturas:
+      type: many
+      class: Factura
+      local: id
+      foreign: id_caja
+    Estado:
+      class: EstadoCaja
+      local: id_estado
+      foreign: id
+
+EstadoCaja:
+  columns:
+    codigo: { type: string(30), notnull: true }
+    nombre: { type: string, length: 100, notnull: true }
+    id_restaurant: { type: integer, notnull: true }
+
+Restaurant:
+  columns:
+    nombre: { type: string(255), notnull: true }
+  relations:
+    Mesas:
+      type: many
+      class: Mesa
+      local: id
+      foreign: id_restaurant
+    Mozos:
+      type: many
+      class: Mozo
+      local: id
+      foreign: id_restaurant
+    Productos:
+      type: many
+      class: Producto
+      local: id
+      foreign: id_restaurant
+    MesaEstados:
+      type: many
+      class: EstadoMesa
+      local: id
+      foreign: id_restaurant
+    PedidoEstados:
+      type: many
+      class: EstadoPedido
+      local: id
+      foreign: id_restaurant
+    CajaEstados:
+      type: many
+      class: EstadoCaja
+      local: id
+      foreign: id_restaurant
+    Pedidos:
+      type: many
+      class: Pedido
+      local: id
+      foreign: id_restaurant

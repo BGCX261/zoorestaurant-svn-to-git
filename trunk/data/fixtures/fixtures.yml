@@ -1,0 +1,70 @@
+EstadoMesa:
+  abiertaM:
+    codigo: 'AB'
+    nombre: 'Abierta'
+  cerradaM:
+    codigo: 'CE'
+    nombre: 'Cerrada'
+  
+EstadoPedido:
+  pendiente:
+    codigo: 'PEN'
+    nombre: 'Pendiente'
+  entregado:
+    codigo: 'ENT'
+    nombre: 'Entregado'
+    
+EstadoCaja:
+  abiertaC:
+    codigo: 'AB'
+    nombre: 'Abierta'
+  cerradaC:
+    codigo: 'CE'
+    nombre: 'Cerrada'
+
+Mozo:
+  mozo1:
+    nombre: Carlos
+    apellido: Sanchez
+  mozo2:
+    nombre: Gabriela
+    apellido: Gimenez
+
+Entrada:
+  matambre:
+    codigo: 'm1'
+    nombre: 'matambre'
+    descripcion: 'matambre casero'
+    precio: 5
+
+Bebida:
+  coca1l:
+    codigo: 'c1l'
+    nombre: 'coca cola'
+    descripcion: 'coca cola 1l'
+    precio: 8.4
+    capacidad: '1 litro'
+
+PlatoPrincipal:
+  ravioles:
+    codigo: 'r1'
+    nombre: 'ravioles'
+    descripcion: 'ravioles con tuco'
+    precio: 12.5
+
+Postre:
+  flan:
+    codigo: 'f'
+    nombre: 'flan'
+    descripcion: 'flan con dulce de leche'
+    precio: 7.5
+
+    
+Restaurant:
+  restaurant:
+    nombre: 'Restaurant Zoo Lujan'
+    MesaEstados: [abiertaM, cerradaM]
+    CajaEstados: [abiertaC, cerradaC]
+    PedidoEstados: [pendiente, entregado]
+    Mozos: [mozo1, mozo2]
+    Productos: [matambre, coca1l, ravioles, flan]

@@ -1,0 +1,19 @@
+#dialog_frame {
+	border-style: none;
+}
+
+#component_main #doc3 {
+	margin: 0;
+}
+
+
+#service_context_menu .yuimenuitem{
+	float:none;
+}
+
+#service_context_menu .yuimenuitemlabel{
+	color: #000;	
+	cursor: pointer;
+	font-size: 100%;
+	padding: 0 5px;
+}

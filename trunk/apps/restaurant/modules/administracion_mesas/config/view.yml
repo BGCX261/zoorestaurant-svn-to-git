@@ -1,0 +1,12 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+
+  stylesheets:    [record-finder.css]
+
+  javascripts:    [crud.js, record-finder-2.js, date-format.js]
+
+  has_layout:     on
+  layout:         layout
